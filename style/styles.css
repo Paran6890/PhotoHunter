@@ -352,3 +352,138 @@ footer .f-icons ul li {
 
 
 /* footer css end */
+
+
+/* responsive */
+
+@media (max-width: 767px) {
+    .nav {
+        text-align: center;
+    }
+    .nav-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 1170px;
+    }
+    .nav ul {
+        justify-content: center;
+    }
+    .nav ul li {
+        margin-left: 20px;
+    }
+    .bi-texts {
+        align-items: center;
+        grid-row-start: 2;
+    }
+    .bi-tittle {
+        font-size: 36px;
+    }
+    .bi-img {
+        grid-row-start: 1;
+    }
+    .bi-img img {
+        padding: 10px;
+    }
+    .brand-images {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 20px;
+    }
+    .banner-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 10px;
+        grid-gap: 0;
+    }
+    .products {
+        0 display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+    .contact-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px;
+    }
+    .cf-form {
+        grid-row-start: 2;
+        margin-bottom: 20px;
+    }
+    .cf-img {
+        grid-row-start: 1;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .cf-img img {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav {
+        text-align: center;
+    }
+    .nav-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 1170px;
+    }
+    .nav ul {
+        justify-content: center;
+    }
+    .nav ul li {
+        margin-left: 20px;
+    }
+    .bi-texts {
+        align-items: center;
+        grid-row-start: 2;
+    }
+    .bi-tittle {
+        font-size: 36px;
+    }
+    .bi-img {
+        grid-row-start: 1;
+    }
+    .bi-img img {
+        padding: 10px;
+    }
+    .brand-images {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 20px;
+    }
+    .banner-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 10px;
+        grid-gap: 0;
+    }
+    .products {
+        0 display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+    .contact-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px;
+    }
+    .cf-form {
+        grid-row-start: 2;
+        margin-bottom: 20px;
+    }
+    .cf-img {
+        grid-row-start: 1;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .cf-img img {
+        text-align: center;
+    }
+}
